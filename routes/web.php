@@ -7,8 +7,11 @@ use App\Http\Controllers\CustomAuthController;
 Route::get('index', function () {
     return view('index');
 });
+Route::get('/', function () {
+    return view('digitalgoods');
+});
 
-Route::get('DigitalGoods',[DigitalController::class,'list']);
+Route::get('digitalgoods',[DigitalController::class,'list']);
 Route::get('login', [CustomAuthController::class, 'index'])->name('login');
 Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name('login.custom'); 
 Route::get('registration', [CustomAuthController::class, 'registration'])->name('register-user');

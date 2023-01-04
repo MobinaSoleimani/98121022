@@ -9,7 +9,6 @@ class DigitalController extends Controller
 {
    public function list() {
         $goods = digital::all();
-
-        return view('digitalgoods');
+        return view('digitalgoods',[ 'goods' => $goods]);
    }
 }
