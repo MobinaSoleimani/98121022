@@ -13,7 +13,10 @@
         <div class="row justify-content-center">
             <div class="col-md-4">
                 <div class="card">
-                    <h3 class="card-header text-center">Register User</h3>
+                <img class="m-4" src="https://www.digikala.com/statics/img/svg/logo.svg" width="390" height="30" alt="لوگوی دیجیکالا">
+                <h3>ورود | ثبت‌ نام</h3>
+                <p>سلام!
+لطفا  ایمیل و رمز ورود خود را وارد کنید</p>
                     <div class="card-body">
                         <form action="{{ route('register.custom') }}" method="POST">
                             @csrf
@@ -44,8 +47,9 @@
                                 </div>
                             </div>
                             <div class="d-grid mx-auto">
-                                <button type="submit" class="btn btn-dark btn-block">Sign up</button>
+                                <button type="submit" class="btn btn-danger btn-block">ورود</button>
                             </div>
+                            <p>ورود شما به معنای پذیرش شرایط دیجی‌کالا و قوانین حریم‌خصوصی است</p>
                         </form>
                     </div>
                 </div>

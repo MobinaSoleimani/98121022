@@ -38,7 +38,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
+      <li class="nav-item active ">
         <a class="nav-link" href="#">لطفا شهر خود را انتخاب کنید <i class="fa-solid fa-location-dot"></i><span class="sr-only">(current)</span></a>
     </ul>
     <form class="form-inline my-2 my-lg-0">
@@ -73,51 +73,51 @@
         <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-secondary">
             <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
                 <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                    <h3 class="fs-5 d-none d-sm-inline">دسته بندی کالاها</h3>
+                    <h3 class="fs-5 d-none d-sm-inline pb-3 my-3">دسته بندی کالاها</h3>
                 </a>
                 <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
-                    <li class="nav-item">
+                    <li class=" my-5">
                         <a href="#" class="nav-link align-middle px-0 text-white">
                             <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">موبایل</span>
                         </a>
                     </li>
-                    <li>
+                    <li class=" my-5">
                         <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle text-white">
                             <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">کالای دیجیتال</span> </a>
                     </li>                             
-                            <li>
+                            <li class=" my-5">
                         <a href="#" class="nav-link px-0 align-middle text-white">
                             <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">خودرو، ابزار و تجهیزات صنعتی</span></a>
                     </li>
-                    <li>
+                    <li class=" my-5">
                         <a href="#" class="nav-link px-0 align-middle text-white">
                             <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">مد و پوشاک</span></a>
                     </li>
-                    <li>
+                    <li class=" my-5">
                         <a href="#" class="nav-link px-0 align-middle text-white">
                             <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">کالاهای سوپرمارکتی</span></a>
                     </li>
-                    <li>
+                    <li class=" my-5">
                         <a href="#" class="nav-link px-0 align-middle text-white">
                             <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">اسباب بازی، کودک و نوزاد</span></a>
                     </li>
-                    <li>
+                    <li class=" my-5">
                         <a href="#" class="nav-link px-0 align-middle text-white">
                             <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline"> محصولات بومی و محلی</span></a>
                     </li>
-                    <li>
+                    <li class=" my-5">
                         <a href="#" class="nav-link px-0 align-middle text-white">
                             <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">زیبایی و سلامت</span></a>
                     </li>
-                    <li>
+                    <li class=" my-5">
                         <a href="#" class="nav-link px-0 align-middle text-white">
                             <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">خانه و آشپزخانه </span></a>
                     </li>
-                    <li>
+                    <li class=" my-5">
                         <a href="#" class="nav-link px-0 align-middle text-white">
                             <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">کتاب، لوازم تحریر و هنر</span></a>
                     </li>                                
-                    <li>
+                    <li class=" my-5">
                         <a href="#" class="nav-link px-0 align-middle text-white">
                             <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">ورزش و سفر </span></a>
                     </li>                                                           
