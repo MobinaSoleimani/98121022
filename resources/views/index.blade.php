@@ -12,7 +12,15 @@
     <link rel="stylesheet" href="path/to/fontawesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
-   
+    <style>
+@font-face {
+  font-family:iran-yekan;
+  src: url(fonts/IRANYekanWebRegular.woff)format("woff");
+} 
+body {
+  font-family: iran-yekan;
+     }
+</style>
   <title>index</title>
 </head>
 <body>
@@ -21,12 +29,11 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i> <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">ورود | ثبت نام <i class="fa-solid fa-arrow-left-long-to-line"></i><span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">ورود | ثبت نام <i class="fa-solid fa-arrow-left"></i></a>
       </li>
-
     </ul>
     <form class="form-inline my-2 my-lg-0 ">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -39,28 +46,28 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active ">
-        <a class="nav-link" href="#">لطفا شهر خود را انتخاب کنید <i class="fa-solid fa-location-dot"></i><span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">لطفا شهر خود را انتخاب کنید <i class="fa-solid fa-location-dot"></i></a>
     </ul>
     <form class="form-inline my-2 my-lg-0">
     <div class="collapse navbar-collapse pl-5 mr-1" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto px-5">
       <li class="nav-item active">
-        <a class="nav-link " href="#">در دیجی کالا بفروشید <span class="sr-only">(current)</span></a>
+        <a class="nav-link " href="#">در دیجی کالا بفروشید </a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link " href="#">سوالی دارید؟ <span class="sr-only">(current)</span></a>
+        <a class="nav-link " href="#">سوالی دارید؟ </a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link " href="#">شگفت انگیزها <i class="fa-sharp fa-solid fa-badge-percent"></i><span class="sr-only">(current)</span></a>
+        <a class="nav-link " href="#">شگفت انگیزها <i class="fa-solid fa-percent"></i></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link " href="#">تخفیف ها و پیشنهادها <i class="fa-solid fa-percent"></i><span class="sr-only">(current)</span></a>
+        <a class="nav-link " href="#">تخفیف ها و پیشنهادها <i class="fa-solid fa-percent"></i></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link " href="#">پرفروش ترین ها <i class="fa-solid fa-fire-flame-curved"></i><span class="sr-only">(current)</span></a>
+        <a class="nav-link " href="#">پرفروش ترین ها <i class="fa-solid fa-fire-flame-curved"></i></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link " href="#">سوپرمارکت <i class="fa fa-shopping-bag" aria-hidden="true"></i><span class="sr-only">(current)</span></a>
+        <a class="nav-link " href="#">سوپرمارکت <i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
       </li>
     </ul>
   </div>
@@ -68,58 +75,58 @@
   </div>
 </nav> 
 
-<div class="container-fluid">
+<div class="container-fluid " style="text-align: center;">
     <div class="row flex-nowrap">
-        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-secondary">
+        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 " style="background-color:#fe4345;">
             <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
                 <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                    <h3 class="fs-5 d-none d-sm-inline pb-3 my-3">دسته بندی کالاها</h3>
+                    <h2 class="fs-5 d-none d-sm-inline pb-3 my-3">دسته بندی کالاها</h2>
                 </a>
                 <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                     <li class=" my-5">
                         <a href="#" class="nav-link align-middle px-0 text-white">
-                            <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">موبایل</span>
+                            <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline font-weight-bold">موبایل</span>
                         </a>
                     </li>
                     <li class=" my-5">
                         <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle text-white">
-                            <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">کالای دیجیتال</span> </a>
+                            <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline font-weight-bold">کالای دیجیتال</span> </a>
                     </li>                             
                             <li class=" my-5">
                         <a href="#" class="nav-link px-0 align-middle text-white">
-                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">خودرو، ابزار و تجهیزات صنعتی</span></a>
+                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline font-weight-bold">خودرو، ابزار و تجهیزات صنعتی</span></a>
                     </li>
                     <li class=" my-5">
                         <a href="#" class="nav-link px-0 align-middle text-white">
-                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">مد و پوشاک</span></a>
+                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline font-weight-bold">مد و پوشاک</span></a>
                     </li>
                     <li class=" my-5">
                         <a href="#" class="nav-link px-0 align-middle text-white">
-                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">کالاهای سوپرمارکتی</span></a>
+                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline font-weight-bold">کالاهای سوپرمارکتی</span></a>
                     </li>
                     <li class=" my-5">
                         <a href="#" class="nav-link px-0 align-middle text-white">
-                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">اسباب بازی، کودک و نوزاد</span></a>
+                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline font-weight-bold">اسباب بازی، کودک و نوزاد</span></a>
                     </li>
                     <li class=" my-5">
                         <a href="#" class="nav-link px-0 align-middle text-white">
-                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline"> محصولات بومی و محلی</span></a>
+                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline font-weight-bold"> محصولات بومی و محلی</span></a>
                     </li>
                     <li class=" my-5">
                         <a href="#" class="nav-link px-0 align-middle text-white">
-                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">زیبایی و سلامت</span></a>
+                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline font-weight-bold">زیبایی و سلامت</span></a>
                     </li>
                     <li class=" my-5">
                         <a href="#" class="nav-link px-0 align-middle text-white">
-                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">خانه و آشپزخانه </span></a>
+                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline font-weight-bold">خانه و آشپزخانه </span></a>
                     </li>
                     <li class=" my-5">
                         <a href="#" class="nav-link px-0 align-middle text-white">
-                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">کتاب، لوازم تحریر و هنر</span></a>
+                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline font-weight-bold">کتاب، لوازم تحریر و هنر</span></a>
                     </li>                                
                     <li class=" my-5">
                         <a href="#" class="nav-link px-0 align-middle text-white">
-                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">ورزش و سفر </span></a>
+                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline font-weight-bold">ورزش و سفر </span></a>
                     </li>                                                           
                         </ul>
                     </li>
@@ -129,10 +136,10 @@
             @yield('content')
       </div>
 </div>
-<footer>
+<footer style="text-align: right;">
+<div >
 <div>
-<div>
-<h2>کالای دیجیتال</h2>
+<h2 >کالای دیجیتال</h2>
 <h2>کالای دیجیتال، سرزمین تکنولوژی</h2>
 <p>اگر شما هم هر سال چشم انتظار ارائه جدیدترین محصولات برندهای مطرح دنیا هستید، کالای دیجیتال دسته بندی مورد علاقه شماست. محصولات این دسته بسیار متنوع هستند و در قلب تپنده‌ی آن‌ها جدیدترین تکنولوژی‌ها قرار گرفته است. شما می‌توانید این محصولات را از قیمت‌های اقتصادی تا گران‌ترین و کامل‌ترین کانفیگ ممکن تهیه کنید. </p>
 <h3>انواع کالای دیجیتال</h3>
