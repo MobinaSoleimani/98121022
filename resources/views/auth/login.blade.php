@@ -9,15 +9,15 @@
 </head>
 <body>
 
-<main class="login-form m-5">
+<main class="login-form m-5" style="text-align: right;">
     <div class="cotainer">
         <div class="row justify-content-center">
             <div class="col-md-4">
                 <div class="card">
                 <img class="m-4" src="https://www.digikala.com/statics/img/svg/logo.svg" width="390" height="30" alt="لوگوی دیجیکالا">
-                <h3>ورود | ثبت‌ نام</h3>
+                <h3>ورود</h3>
                 <p>سلام!
-لطفا  ایمیل و رمز ورود خود را وارد کنید</p>
+لطفا  نام، ایمیل و رمز ورود خود را وارد کنید</p>
                     <div class="card-body">
                         <form method="POST" action="{{ route('login.custom') }}">
                             @csrf
@@ -34,7 +34,7 @@
                                 <span class="text-danger">{{ $errors->first('password') }}</span>
                                 @endif
                             </div>
-                            <div class="form-group mb-3">
+                            <div class="form-group mb-3" style="text-align: left;">
                                 <div class="checkbox">
                                     <label>
                                         <input type="checkbox" name="remember"> Remember Me
