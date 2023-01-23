@@ -80,24 +80,24 @@ body {
   </div>
 </nav> 
 
-<div class="container-fluid " style="text-align: center;">
+<div class="container-fluid ">
     <div class="row flex-nowrap">
         <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 " style="background-color:#fe4345;">
             <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
                 <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                    <h2 class="fs-5 d-none d-sm-inline pb-3 my-3">دسته بندی کالاها</h2>
+                    <h2 class="fs-5 d-none d-sm-inline py-5 mb-5 mt-2">دسته بندی کالاها</h2>
                 </a>
                 <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
-                    <li class=" my-5">
+                    <li class=" my-5 py-5">
                         <a href="#" class="nav-link align-middle px-0 text-white">
                             <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline font-weight-bold">موبایل</span>
                         </a>
                     </li>
-                    <li class=" my-5">
+                    <li class=" my-5 py-5">
                         <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle text-white">
                             <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline font-weight-bold">کالای دیجیتال</span> </a>
                     </li>                             
-                            <li class=" my-5">
+                            <li class=" my-5 py-5">
                         <a href="#" class="nav-link px-0 align-middle text-white">
                             <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline font-weight-bold">خودرو، ابزار و تجهیزات صنعتی</span></a>
                     </li>
@@ -105,33 +105,33 @@ body {
                         <a href="#" class="nav-link px-0 align-middle text-white">
                             <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline font-weight-bold">مد و پوشاک</span></a>
                     </li>
-                    <li class=" my-5">
+                    <li class=" my-5 py-5">
                         <a href="#" class="nav-link px-0 align-middle text-white">
                             <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline font-weight-bold">کالاهای سوپرمارکتی</span></a>
                     </li>
-                    <li class=" my-5">
+                    <li class=" my-5 py-5">
                         <a href="#" class="nav-link px-0 align-middle text-white">
                             <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline font-weight-bold">اسباب بازی، کودک و نوزاد</span></a>
                     </li>
-                    <li class=" my-5">
+                    <li class=" my-5 py-5">
                         <a href="#" class="nav-link px-0 align-middle text-white">
                             <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline font-weight-bold"> محصولات بومی و محلی</span></a>
                     </li>
-                    <li class=" my-5">
+                    <li class=" my-5 py-5">
                         <a href="#" class="nav-link px-0 align-middle text-white">
                             <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline font-weight-bold">زیبایی و سلامت</span></a>
                     </li>
-                    <li class=" my-5">
+                    <li class=" my-5 py-5">
                         <a href="#" class="nav-link px-0 align-middle text-white">
                             <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline font-weight-bold">خانه و آشپزخانه </span></a>
                     </li>
-                    <li class=" my-5">
+                    <li class=" my-5 py-5">
                         <a href="#" class="nav-link px-0 align-middle text-white">
                             <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline font-weight-bold">کتاب، لوازم تحریر و هنر</span></a>
                     </li>                                
-                    <li class=" my-5">
+                    <li class=" my-5 py-5">
                         <a href="#" class="nav-link px-0 align-middle text-white">
-                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline font-weight-bold">ورزش و سفر </span></a>
+                            <i class="fs-4 bi-table "></i> <span class="ms-1 d-none d-sm-inline font-weight-bold">ورزش و سفر </span></a>
                     </li>                                                           
                         </ul>
                     </li>
@@ -142,12 +142,14 @@ body {
       </div>
 </div>
 <footer style="text-align: right;">
-<div class="py-5 mt-4">
-<div>
+<div class="py-5 mt-4 mr-3">
+<div class="px-5">
 <h3>کالای دیجیتال</h3>
 <h4>کالای دیجیتال، سرزمین تکنولوژی</h4>
 <p>اگر شما هم هر سال چشم انتظار ارائه جدیدترین محصولات برندهای مطرح دنیا هستید، کالای دیجیتال دسته بندی مورد علاقه شماست. محصولات این دسته بسیار متنوع هستند و در قلب تپنده‌ی آن‌ها جدیدترین تکنولوژی‌ها قرار گرفته است. شما می‌توانید این محصولات را از قیمت‌های اقتصادی تا گران‌ترین و کامل‌ترین کانفیگ ممکن تهیه کنید. </p>
-<h4>انواع کالای دیجیتال</h4>
+<span id="dots"></span>
+<span id="more">
+<h4 >انواع کالای دیجیتال</h4>
 <p>موبایل: تلفن همراه یکی از مهم‌ترین و اصلی‌ترین کالای دیجیتال در زندگی مدرن است. این محصولات هوشمند حتی اقتصادی‌ترین آن‌ها امکانات بسیار زیادی را در اختیار شما قرار می‌دهد و لذت زندگی مدرن را برای‌تان به ارمغان می‌آورد. با خرید یک تلفن هوشمند می‌توانید بهترین عکس‌ها را بگیرید، به موسیقی با بالاترین کیفیت گوش دهید و با تمام دنیا به راحتی چند کلیک ارتباط برقرار کنید.  
 لپتاپ: اهمیت لپتاپ، فراتر از یک دستگاه دیجیتال امروزی است زیرا به یک وسیله مهم برای کار و کسب درآمد تبدیل شده است. در واقع شما می‌توانید در هر نقطه‌ از دنیا که هستید، با فشردن یک دکمه لپتاپ، وارد فضای کاری یا خانوادگی شوید. این محصولات برای هر نوع کاربری  به صورت تخصصی طراحی می‌شوند. از این رو می‌توانید یک لپتاپ خاص را برای گیمینگ یا کارهای فنی و مهندسی تهیه کنید.
 تبلت: تبلت‌ها عمر کوتاه‌تری نسبت به سایر لوازم دیجیتال دارند. با این حال بسیار مورد استقبال قرار گرفته‌اند و امکانات زیادی گاهی در حد یک لپتاپ ارائه می‌کنند. شما می‌توانید از این محصولات برای طراحی یا مطالعه کتاب الکتارونیکی استفاده کنید. 
@@ -157,14 +159,33 @@ body {
 <h4>انواع برند تولید کننده کالای دیجیتال</h4>
 <p>شرکت‌های بسیاری در تولید محصولات دیجیتال دست دارند. بعضی از آن‌ها مانند سامسونگ samsung، ایسوس ASUS، شیائومی Xiaomi، برندهای به نامی در این حوزه هستند و طرفداران بسیاری هم دارند. اما شرکت‌هایی چون دبلیو یو دبلیو WUW، ماهوت Mahoot، ریمکس Remax هم در این حوزه فعالیت دارند. از سایر برندهای معروف در تولید کالای دیجیتال می‌توان به اپل Apple، نوکیا Nokia، تسکو Tesco، اچ پی HP و ... اشاره کرد.</p>
 <h4>خرید انواع کالای دیجیتال از دیجی کالا (Digikala)</h4>
-<p>تنوع در این محصولات و برند تولید کننده‌ی آن‌ها بسیار زیاد است. برای یک خرید هوشمندانه و مطمئن، به وب‌سایت دیجی کالا مراجعه کرده و انواع کالای دیجیتال مورد نظر را با توضیحات کامل و بهترین قیمت موجود در بازار مشاهده کنید. هم‌چنین می‌توانید از تخفیف‌ها و امکانات فروش قسطی بهره‌مند شوید.</p>
+<p>تنوع در این محصولات و برند تولید کننده‌ی آن‌ها بسیار زیاد است. برای یک خرید هوشمندانه و مطمئن، به وب‌سایت دیجی کالا مراجعه کرده و انواع کالای دیجیتال مورد نظر را با توضیحات کامل و بهترین قیمت موجود در بازار مشاهده کنید. هم‌چنین می‌توانید از تخفیف‌ها و امکانات فروش قسطی بهره‌مند شوید</p>
 </div>
+</span>
+<button onclick="myFunction()" class="text-info mr-5" id="myBtn" style="border: none;background-color: white;font-size: 20px;">مشاهده بیشتر</button>
 <div>
-<img class="ml-4" src="https://www.digikala.com/statics/img/svg/digi.svg" width="115" height="30" alt=" دیجیکالا">
+<img class="ml-4 mt-5" src="https://www.digikala.com/statics/img/svg/digi.svg" width="115" height="30" alt=" دیجیکالا">
 <p>تلفن پشتیبانی ۶۱۹۳۰۰۰۰ - ۰۲۱ | ۷ روز هفته، ۲۴ ساعته پاسخگوی شما هستیم</p>
 </div>
 </div>
 </footer>
 </div>
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "مشاهده بیشتر"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "مشاهده کمتر"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
 </body>
 </html>

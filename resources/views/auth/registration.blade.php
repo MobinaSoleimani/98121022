@@ -5,6 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+@font-face {
+  font-family:iran-yekan;
+  src: url(fonts/IRANYekanWebRegular.woff)format("woff");
+} 
+body {
+  font-family: iran-yekan;
+     }
+     ::-webkit-input-placeholder {
+      text-align:right;
+     }
+</style>
     <title>Register</title>
 </head>
 <body>
@@ -14,8 +26,8 @@
             <div class="col-md-4">
                 <div class="card">
                 <img class="m-4" src="https://www.digikala.com/statics/img/svg/logo.svg" width="390" height="30" alt="لوگوی دیجیکالا">
-                <h3>ثبت نام</h3>
-                <p>سلام!
+                <h3 class="px-2">ثبت نام</h3>
+                <p class="px-2">سلام!
 لطفا نام، ایمیل و رمز ورود خود را وارد کنید</p>
                     <div class="card-body">
                         <form action="{{ route('register.custom') }}" method="POST">

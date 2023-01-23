@@ -11,4 +11,8 @@ class DigitalController extends Controller
         $goods = digital::all();
         return view('digitalgoods',[ 'goods' => $goods]);
    }
+   public function details() {
+      $goods = digital::all();
+      return view('details',[ 'goods' => $goods]);
+ }
 }

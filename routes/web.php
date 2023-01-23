@@ -10,7 +10,7 @@ Route::get('index', function () {
 Route::get('/', function () {
     return view('digitalgoods');
 });
-Route::get('/details', function () {
+Route::get('details', function () {
     return view('details');
 });
 
@@ -20,4 +20,4 @@ Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name(
 Route::get('registration', [CustomAuthController::class, 'registration'])->name('register-user');
 Route::post('custom-registration', [CustomAuthController::class, 'customRegistration'])->name('register.custom'); 
 Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');
-// Route::get('details',[CustomAuthController::class,'details'])->name('details');
+Route::get('details',[DigitalController::class,'details'])->name('details');

@@ -1,5 +1,6 @@
 @extends('index')
 @section('content')
+  
 <div class="w-100 d-flex flex-column align-items-center"> 
 
 <div id="carouselExampleIndicators" class="carousel slide w-75 mt-2" data-ride="carousel">
@@ -36,6 +37,31 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+
+<div class="row px-0 py-2 mt-3 ml-2 rounded"style="background: rgb(92,81,191);background: linear-gradient(0deg, rgba(92,81,191,1) 0%, rgba(103,99,217,1) 100%);" >
+<div class="col">
+<img class="rounded" src="https://dkstatics-public.digikala.com/digikala-products/59e7b04226c37cceacf52b1ac3d208296addc499_1610866791.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" width="130" height="190" alt=" دیجیکالا">
+</div>    
+<div class="col">
+<img class="rounded" src="https://dkstatics-public.digikala.com/digikala-products/168bf2c0a445ec0a85c4c4fdb26032a25564fcc0_1644063737.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" width="130" height="190" alt=" دیجیکالا">
+</div>
+<div class="col">
+<img class="rounded" src="https://dkstatics-public.digikala.com/digikala-products/5d6503920e3e1fd1a385c6312dd6493d94ecae04_1664015158.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" width="130" height="190" alt=" دیجیکالا">
+</div> 
+<div class="col">
+<img class="rounded" src="https://dkstatics-public.digikala.com/digikala-products/75496c457f1e9451f87355dfa3c03afbf1e68820_1672760202.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" width="130" height="190" alt=" دیجیکالا">
+</div>
+<div class="col">
+<img class="rounded" src="https://dkstatics-public.digikala.com/digikala-products/c5b865efde6c8bae0474b5d564b55a95527062b6_1665898590.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" width="130" height="190" alt=" دیجیکالا">
+</div>
+<div class="col">
+<img class="rounded" src="https://dkstatics-public.digikala.com/digikala-products/a2a06bc65cc34554ef7d52cbd9be80748d48fdbb_1647164226.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" width="130" height="190" alt=" دیجیکالا">
+</div>
+<div class="col d-flex flex-column">
+<img class="rounded m-1" src="	https://www.digikala.com/statics/img/svg/specialCarousel/Amazings.svg" width="130" height="90" alt=" دیجیکالا">
+<img class="rounded m-1" src="https://www.digikala.com/statics/img/png/specialCarousel/Electronics.png" width="130" height="90" alt=" دیجیکالا">
+</div>
+</div>    
 
 <h3 class="mb-3 p-4">خرید بر اساس دسته‌ بندی</h3>
 <div class="d-flex flex-row-reverse justify-content-around flex-wrap mb-5"> 
@@ -86,7 +112,7 @@
 <img class="rounded" src="https://dkstatics-public.digikala.com/digikala-adservice-banners/0b7832dbd10922d245dc421fc8f1d358a488cf3a_1667985480.jpg?x-oss-process=image/quality,q_95" width="300" height="150" alt=" دیجیکالا">
 </div>
 <div class="col-3">
-<img class="rounded" src="https://dkstatics-public.digikala.com/digikala-adservice-banners/0b7832dbd10922d245dc421fc8f1d358a488cf3a_1667985480.jpg?x-oss-process=image/quality,q_95" width="300" height="150" alt=" دیجیکالا">
+<img class="rounded" src="https://dkstatics-public.digikala.com/digikala-adservice-banners/e73deaf71dedfb33ac5ef039aaaff5831689e34c_1667985090.jpg?x-oss-process=image/quality,q_95" width="300" height="150" alt=" دیجیکالا">
 </div>    
 </div>
 <h3 class="mb-3 p-4">پرفروش‌ ترین کالاها</h3>
@@ -111,7 +137,7 @@
    @endif
 @endforeach
 </div> 
-<div class="border border-secondary rounded">
+<div class="border border-secondary rounded"style="text-align: center;">
 <h3 class="mb-1 p-4">محبوب‌ترین برندها</h3>
 <img class="rounded ml-2 mb-3" src="https://dkstatics-public.digikala.com/digikala-brands/1800.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80" width="120" height="90" alt=" دیجیکالا">
 <img class="rounded ml-2 mb-3" src="https://dkstatics-public-2.digikala.com/digikala-brands/100008076.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80" width="120" height="90" alt=" دیجیکالا">
@@ -123,27 +149,28 @@
 <img class="rounded mr-2 mb-3" src="https://dkstatics-public.digikala.com/digikala-brands/c672197e1b856916470b6b0f755063b10516fdfb_1642246341.jpg?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80" width="120" height="90" alt=" دیجیکالا">
 </div>
 
-<div class="mt-4 d-flex flex-row-reverse ">
-<h5 class="" style="padding-left:960px;">مطالب مرتبط</h5>
+<div class="mt-4 d-flex flex-row-reverse">
+<h5 class="" style="padding-left:930px;">مطالب مرتبط</h5>
 <a class=""href="#"> مطالب بیشتر در دیجی‌کالا مگ </a>
 </div>
-<div class="row  mt-1">
+<div class="row px-0 mt-1" style="width:95%;">
 <div class="col-3">
-<img class="rounded" src="https://www.digikala.com/mag/wp-content/uploads/2023/01/10.22-22-610x380.jpg" width="280" height="150" alt=" دیجیکالا">
+<img class="rounded" src="https://www.digikala.com/mag/wp-content/uploads/2023/01/10.22-22-610x380.jpg" width="270" height="150" alt=" دیجیکالا">
 <p class=""style="font-size:12px;">بررسی ست میکروفن بی‌سیم کامیکا VDLive10  آچار فرانسه برای صدابرداری</p>
 </div>
 <div class="col-3">
-<img class="rounded" src="https://www.digikala.com/mag/wp-content/uploads/2023/01/VRAM-1-610x380.jpg" width="280" height="150" alt=" دیجیکالا">
+<img class="rounded" src="https://www.digikala.com/mag/wp-content/uploads/2023/01/VRAM-1-610x380.jpg" width="270" height="150" alt=" دیجیکالا">
 <p class="" style="font-size:12px;">چرا ظرفیت حافظه VRAM برای کارت گرافیک اهمیت بسیار زیادی دارد؟</p>
 </div> 
 <div class="col-3">
-<img class="rounded" src="https://www.digikala.com/mag/wp-content/uploads/2023/01/Best-120-HZ-phones-3-610x380.jpg" width="280" height="150" alt=" دیجیکالا">
+<img class="rounded" src="https://www.digikala.com/mag/wp-content/uploads/2023/01/Best-120-HZ-phones-3-610x380.jpg" width="270" height="150" alt=" دیجیکالا">
 <p class="" style="font-size:12px;">راهنمای خرید بهترین گوشی با نمایشگر ۱۲۰ هرتزی</p>
 </div>
 <div class="col-3">
-<img class="rounded" src="https://www.digikala.com/mag/wp-content/uploads/2023/01/10.22-8-610x380.jpg" width="280" height="150" alt=" دیجیکالا">
+<img  class="rounded" src="https://www.digikala.com/mag/wp-content/uploads/2023/01/10.22-8-610x380.jpg" width="270" height="150" alt=" دیجیکالا">
 <p class="" style="font-size:12px;">بررسی هدفون بی‌سیم او ام تینگ AirFree EO002Bt؛ قیمت فوق‌العاده و بیس قوی</p>
 </div>    
 </div>
 </div>
+
 @endsection 
