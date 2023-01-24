@@ -1,9 +1,9 @@
 @extends('index')
 @section('content')
   
-<div class="w-100 d-flex flex-column align-items-center"> 
+<div class="w-100 d-flex flex-column align-items-center px-4 mt-2"> 
 
-<div id="carouselExampleIndicators" class="carousel slide w-75 mt-2" data-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide w-100 mt-2" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -13,32 +13,32 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="https://dkstatics-public.digikala.com/digikala-adservice-banners/ff965e730a834f6f6d8cdf50cc59cf1e13994115_1674045242.jpg?x-oss-process=image/quality,q_95"  width="480" height="270" alt="First slide">
+      <img class="d-block w-100 px-5 mx-1" src="https://dkstatics-public.digikala.com/digikala-adservice-banners/ff965e730a834f6f6d8cdf50cc59cf1e13994115_1674045242.jpg?x-oss-process=image/quality,q_95" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://dkstatics-public.digikala.com/digikala-adservice-banners/51967f0d61af1a7d6f63b77d2e64fb996d7887e6_1667980677.jpg?x-oss-process=image/quality,q_95" alt="Second slide">
+      <img class="d-block w-100 px-5 mx-1" src="https://dkstatics-public.digikala.com/digikala-adservice-banners/d49179fa3475f6d27a91e43e8e46e09e191bf2a1_1667980460.jpg?x-oss-process=image/quality,q_95" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://dkstatics-public.digikala.com/digikala-adservice-banners/88e7d7d654e6e5111e5d6098d84414c4a7fa341f_1667981540.jpg?x-oss-process=image/quality,q_95" alt="Third slide">
+      <img class="d-block w-100 px-5 mx-1" src="https://dkstatics-public.digikala.com/digikala-adservice-banners/ab7a194eb65c3c85854c82a9096c1aeb1d7420d5_1667982004.jpg?x-oss-process=image/quality,q_95" alt="Third slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://dkstatics-public.digikala.com/digikala-adservice-banners/ab7a194eb65c3c85854c82a9096c1aeb1d7420d5_1667982004.jpg?x-oss-process=image/quality,q_95" alt="Fourth slide">
+      <img class="d-block w-100 px-5 mx-1" src="https://dkstatics-public.digikala.com/digikala-adservice-banners/88e7d7d654e6e5111e5d6098d84414c4a7fa341f_1667981540.jpg?x-oss-process=image/quality,q_95" alt="Fourth slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://dkstatics-public.digikala.com/digikala-adservice-banners/d49179fa3475f6d27a91e43e8e46e09e191bf2a1_1667980460.jpg?x-oss-process=image/quality,q_95" alt="Fifth slide">
+      <img class="d-block w-100 px-5 mx-1" src="https://dkstatics-public.digikala.com/digikala-adservice-banners/51967f0d61af1a7d6f63b77d2e64fb996d7887e6_1667980677.jpg?x-oss-process=image/quality,q_95" alt="Fifth slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+  <a class="carousel-control-next " href="#carouselExampleIndicators" role="button" data-slide="next" >
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
 </div>
 
-<div class="row px-0 py-2 mt-3 ml-2 rounded"style="background: rgb(92,81,191);background: linear-gradient(0deg, rgba(92,81,191,1) 0%, rgba(103,99,217,1) 100%);" >
+<div class="row px-0 py-2 my-5 ml-2 rounded"style="background: rgb(92,81,191);background: linear-gradient(0deg, rgba(92,81,191,1) 0%, rgba(103,99,217,1) 100%);" >
 <div class="col">
 <img class="rounded" src="https://dkstatics-public.digikala.com/digikala-products/59e7b04226c37cceacf52b1ac3d208296addc499_1610866791.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" width="130" height="190" alt=" دیجیکالا">
 </div>    
@@ -94,8 +94,9 @@
 <div class="d-flex flex-row-reverse d-flex justify-content-around flex-wrap mb-5"> 
 @foreach ($goods as $good)
 @if ( $good->id > 10 & $good->id < 25)
+
 <div class="px-5">
-<img src="{{ asset('/images/'.$good->picture) }}" width="130" height="100" alt="img">
+<img src="{{ asset('/images/1a9e53cd390a8698ec880cb29ac054645f38dcc7_1636540872.jpg') }}" width="130" height="100" alt="img">
     <p>{{$good->title}}</p>
    </div>
    @endif
@@ -103,16 +104,16 @@
 </div>
 <div class="row m-2">
 <div class="col-3">
-<img class="rounded" src="https://dkstatics-public.digikala.com/digikala-adservice-banners/78c2a7eda1f92f5f5761dd354a4e4bed0f0aa8c6_1667985688.jpg?x-oss-process=image/quality,q_95" width="300" height="150" alt=" دیجیکالا">
+<img class="rounded px-1" src="https://dkstatics-public.digikala.com/digikala-adservice-banners/78c2a7eda1f92f5f5761dd354a4e4bed0f0aa8c6_1667985688.jpg?x-oss-process=image/quality,q_95" width="300" height="150" alt=" دیجیکالا">
 </div>
 <div class="col-3">
-<img class="rounded" src="https://dkstatics-public.digikala.com/digikala-adservice-banners/155e754ef0366ae0e949941e39d0ffd3c225d72b_1667986088.jpg?x-oss-process=image/quality,q_95" width="300" height="150" alt=" دیجیکالا">
+<img class="rounded px-1" src="https://dkstatics-public.digikala.com/digikala-adservice-banners/155e754ef0366ae0e949941e39d0ffd3c225d72b_1667986088.jpg?x-oss-process=image/quality,q_95" width="300" height="150" alt=" دیجیکالا">
 </div> 
 <div class="col-3">
-<img class="rounded" src="https://dkstatics-public.digikala.com/digikala-adservice-banners/0b7832dbd10922d245dc421fc8f1d358a488cf3a_1667985480.jpg?x-oss-process=image/quality,q_95" width="300" height="150" alt=" دیجیکالا">
+<img class="rounded px-1" src="https://dkstatics-public.digikala.com/digikala-adservice-banners/0b7832dbd10922d245dc421fc8f1d358a488cf3a_1667985480.jpg?x-oss-process=image/quality,q_95" width="300" height="150" alt=" دیجیکالا">
 </div>
 <div class="col-3">
-<img class="rounded" src="https://dkstatics-public.digikala.com/digikala-adservice-banners/e73deaf71dedfb33ac5ef039aaaff5831689e34c_1667985090.jpg?x-oss-process=image/quality,q_95" width="300" height="150" alt=" دیجیکالا">
+<img class="rounded px-1" src="https://dkstatics-public.digikala.com/digikala-adservice-banners/e73deaf71dedfb33ac5ef039aaaff5831689e34c_1667985090.jpg?x-oss-process=image/quality,q_95" width="300" height="150" alt=" دیجیکالا">
 </div>    
 </div>
 <h3 class="mb-3 p-4">پرفروش‌ ترین کالاها</h3>
@@ -131,8 +132,10 @@
 @foreach ($goods as $good)
 @if ( $good->id > 42 & $good->id < 59)
 <div class="px-5">
-<img src="{{ asset('/images/'.$good->picture) }}" width="130" height="100" alt="img">
+  <a class="text-dark text-decoration-none" href="{{ url('details').$good->id }}">
+<img src="{{ asset('/images/1a9e53cd390a8698ec880cb29ac054645f38dcc7_1636540872.jpg') }}" width="130" height="100" alt="img">
     <p>{{$good->title}}</p>
+</a>
    </div>
    @endif
 @endforeach
@@ -172,5 +175,7 @@
 </div>    
 </div>
 </div>
-
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 @endsection 

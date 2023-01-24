@@ -6,11 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"crossorigin="anonymous">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link src="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="path/to/fontawesome.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
     <style>
 @font-face {
@@ -33,7 +28,7 @@ body {
   <div class="collapse navbar-collapse" id="navbarSupportedContent" >
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        <a class="nav-link" href="{{ url('shop') }}"><i class="fa-solid fa-cart-shopping"></i></a>
       </li>
       <li class="nav-item active border border-black rounded ml-3 py-2">
         <a class="nav-link d-inline" href="{{ url('registration') }}"><span> ثبت نام  |</span></a>
@@ -51,8 +46,41 @@ body {
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active ">
-        <a class="nav-link text-secondary" data-toggle="modal" data-target="#exampleModal">لطفا شهر خود را انتخاب کنید <i class="fa-solid fa-location-dot"></i></a>
-    </ul>
+   
+<button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
+<a class="nav-link text-secondary" data-toggle="modal" data-target="#exampleModal">لطفا شهر خود را انتخاب کنید <i class="fa-solid fa-location-dot"></i></a>
+</button>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="text-align: right;">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel" style="position: relative; left:370px">انتخاب شهر</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="overflow: scroll;">
+        <h3 class="text-info">مکان یابی خودکاری <i class="fa-solid fa-location-crosshairs"></i></h3>
+        <p class="py-3 mt-4">آذربایجان شرقی</p>
+        <p class="py-3">اردبیل</p>
+        <p class="py-3">اصفهان</p>
+        <p class="py-3">البرز</p>
+        <p class="py-3">ایلام</p>
+        <p class="py-3">بوشهر</p>
+        <p class="py-3">تهران</p>
+        <p class="py-3">چهار محال و بختیاری</p>
+        <p class="py-3">خراسان جنوبی</p>
+        <p class="py-3">خراسان رضوی</p>
+        <p class="py-3">خراسان شمالی</p>
+        <p class="py-3">خوزستان</p>
+        <p class="py-3">زنجان</p>
+        <p class="py-3">سمنان</p>
+      </div>
+    </div>
+  </div>
+</div>
+    </li>
+      </ul>
     <form class="form-inline my-2 my-lg-0">
     <div class="collapse navbar-collapse pl-5 mr-1" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto px-5">
@@ -170,6 +198,9 @@ body {
 </div>
 </footer>
 </div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script>
 function myFunction() {
   var dots = document.getElementById("dots");
