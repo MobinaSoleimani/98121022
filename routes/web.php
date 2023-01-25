@@ -22,5 +22,6 @@ Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name(
 Route::get('registration', [CustomAuthController::class, 'registration'])->name('register-user');
 Route::post('custom-registration', [CustomAuthController::class, 'customRegistration'])->name('register.custom'); 
 Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');
+Route::get('dashboard', [CustomAuthController::class, 'dashboard'])->name('dashboard');
 Route::get('details{id}',[DigitalController::class,'details'])->name('details');
 Route::get('shop{id}',[DigitalController::class,'shop'])->name('shop');
