@@ -58,7 +58,12 @@ body {
       </div>
       <div class="ml-3 p-3 mb-2 border border-secondary"style="border-color: #eee;">
       <h4>سبد خرید شما</h4>
-      <h5 class=" mr-5 px-5">{{$good->title}}</h5>
+      <div class="d-flex flex-row-reverse">
+      <div class="mt-5">
+    <img src="{{ asset('/images/47.jpg') }}" width="150"height="200" alt="img">
+    </div>
+    <div>
+    <h5 class=" mr-5 px-5">{{$good->title}}</h5>
       <p class="text-secondary mr-5 px-5"style="font-size:14px;"> 400 عدد</p>
       <p class="text-secondary mr-5 px-5"style="font-size:14px;">  پخش کالا تهران</p>
       <p class="text-secondary mr-5 px-5"style="font-size:14px;">  موجود در انبار فروشنده</p>
@@ -67,6 +72,8 @@ body {
       <p class="text-danger mr-5 px-5"style="font-size:12px;">  تومان تخفیف{{$good->price}} </p>
       <p class=" mr-5 px-5"style="font-size:12px;"> ۱۸,۴۸۰ تومان</p>
       <p class="text-success mr-5 px-5"style="font-size:12px;"> بهترین قیمت در ۳۰ روز گذشته</p>
+      </div>
+      </div>
       </div>
     </div>
     </div>

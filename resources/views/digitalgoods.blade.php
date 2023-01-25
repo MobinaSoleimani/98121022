@@ -68,7 +68,7 @@
 @foreach ($goods as $good)
 @if ( $good->id < 11)
 <div class="px-5">
-<img src="{{ asset('/images/1a9e53cd390a8698ec880cb29ac054645f38dcc7_1636540872.jpg') }}" width="130" height="100" alt="img">
+<img src="{{ asset('/images/5.jpg')}}" width="130" height="100" alt="img">
     <p>{{$good->title}}</p>
 </div>
    @endif
@@ -96,7 +96,7 @@
 @if ( $good->id > 10 & $good->id < 25)
 
 <div class="px-5">
-<img src="{{ asset('/images/1a9e53cd390a8698ec880cb29ac054645f38dcc7_1636540872.jpg') }}" width="130" height="100" alt="img">
+<img src="{{ asset('/images/11.jpg') }}" width="130" height="100" alt="img">
     <p>{{$good->title}}</p>
    </div>
    @endif
@@ -121,7 +121,7 @@
 @foreach ($goods as $good)
 @if ( $good->id > 24 & $good->id < 43)
 <div class="px-5">
-<img src="{{ asset('/images/'.$good->picture) }}" width="130" height="100" alt="img">
+<img src="{{ asset('/images/39.jpg') }}" width="130" height="100" alt="img">
     <p>{{$good->title}}</p>
    </div>
    @endif
@@ -133,7 +133,7 @@
 @if ( $good->id > 42 & $good->id < 59)
 <div class="px-5">
   <a class="text-dark text-decoration-none" href="{{ url('details').$good->id }}">
-<img src="{{ asset('/images/1a9e53cd390a8698ec880cb29ac054645f38dcc7_1636540872.jpg') }}" width="130" height="100" alt="img">
+<img src="{{ asset('/images/47.jpg') }}" width="130" height="100" alt="img">
     <p>{{$good->title}}</p>
 </a>
    </div>

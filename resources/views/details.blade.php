@@ -59,7 +59,7 @@ body {
     </div>
     <div class="col-3 mr-2">
     <div class="px-0">
-    <img src="{{ asset('/images/1a9e53cd390a8698ec880cb29ac054645f38dcc7_1636540872.jpg') }}" width="450" height="400" alt="img">
+    <img src="{{ asset('/images/47.jpg') }}" width="350" height="400" alt="img">
  </div>
 
     </div>
